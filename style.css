@@ -1,0 +1,36 @@
+html{
+    background-color: #DBD3D8;
+          font-family: "Edu NSW ACT Hand Pre", cursive;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+#main-container{
+    background-color: #EFF1F3;
+    height: 700px;
+    border: 10px solid black;
+    border-radius: 2%;
+    
+}
+
+
+#menu{
+    background-color: #D8B4A0;
+    height: 40px;
+    width: 40%;
+    position: relative;
+    top: 20px;
+    left: 450px;
+    border: solid black;
+    border-radius: 8%;
+    box-shadow: 25%;
+}
+
+#context{
+    position: relative;
+    top: 300px;
+    left: 25;
+    text-align: center;
+
+}
