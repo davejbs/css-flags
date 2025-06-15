@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canada's Flag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap" rel="stylesheet">
+    
+    <style>
+        #flag{
+            height: 500px;
+            width: 900px;
+            background-color: white;
+            border: solid black;
+            border-radius: 2%;
+            position: relative;
+            left: 300px;
+            margin-top: 45px;
+        }
+
+        .red-section{
+            height: 500px;
+            width: 200px;
+            background-color: #D80621;
+            position: absolute;
+            border-radius: 1%;
+        }
+
+        .red-section2{
+            height: 500px;
+            width: 200px;
+            background-color: #D80621;
+            position: absolute;
+            left: 700px;
+            border-radius: 1%;
+        }
+
+        p{
+        font-family: "Edu NSW ACT Hand Pre", cursive;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        }
+
+        #red-triangle{
+        height: 200px;
+        position: absolute;
+        left: 350px;
+        top: 195px ;
+        }
+        #bottom-triangle1{
+        width: 0;
+        height: 0;
+        border-left: 25px solid transparent;
+        border-top: 100px solid transparent;
+        border-bottom: 25px solid black ;
+        position: absolute;
+        left: 370px;
+        top: 195px ;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <p>Canada's Flag</p>
+    <div id="flag">
+        <div class="red-section"></div>
+        
+        <div id="mapple-leaf">
+            <div id="red-triangle"></div>
+            <span id="red-triangle">&#9650</span>
+            <span id="red-triangle">&#9650;</span> <!-- ▲ triangle up -->
+        </div>
+        
+        <div class="red-section2"></div>
+    </div>
+    
+</body>
+</html>
