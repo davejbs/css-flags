@@ -20,8 +20,8 @@ html{
     height: 5%;
     width: 40%;
     position: relative;
-    top: 20px;
-    left: 450px;
+    top: 4%;
+    left: 30%;
     ;
     display: inline block;
     text-align: center;
@@ -36,8 +36,7 @@ a{
 
 #context{
     position: relative;
-    top: 300px;
-    left: 25;
+    top: 35%;
     text-align: center;
 
 }
