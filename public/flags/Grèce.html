@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greece's Flag</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap" rel="stylesheet">
+    
+    <style>
+        #flag{
+            height: 500px;
+            width: 900px;
+            background-color: white;
+            border: solid black;
+            border-radius: 2%;
+            position: relative;
+            left: 300px;
+            margin-top: 45px;
+        }
+
+        p{
+        font-family: "Edu NSW ACT Hand Pre", cursive;
+        font-optical-sizing: auto;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        }
+
+        #blue-rectangle{
+            height: 285px;
+            width: 300px;
+            background-color: #0D5EAF;
+            border-radius: 1%;
+            position: absolute;
+        }
+        
+        #horizontal-white-line{
+            height: 55.5px;
+            width: 300px;
+            background-color: white;
+            position: absolute;
+            top: 115px;
+            padding: 0%;
+            margin: 0%;
+        }
+        #vertical-white-line{
+            height: 300px;
+            width: 55.5px;
+            background-color: white;
+            position: absolute;
+            left: 125px;
+            padding: 0%;
+            margin: 0%;
+        }        
+
+        .band{
+            height: 56.5px;
+            width: 600px ;
+            border: 1px solid black;
+            border-radius: 2%;
+        }
+
+        .band[value="1"]{
+            position: absolute;
+            left: 300px;
+            background-color: #0D5EAF;
+        }
+
+        .band[value="2"]{
+            position: absolute;
+            left: 300px;
+            top: 56.5px;
+            background-color: #FFFFFF;
+        }
+        .band[value="3"]{
+            position: absolute;
+            left: 300px;
+            top: 112.5px;
+            background-color: #0D5EAF;
+        }
+        .band[value="4"]{
+            position: absolute;
+            left: 300px;
+            top: 168.9px;
+            background-color: #FFFFFF;
+        }
+        .band[value="5"]{
+            position: absolute;
+            left: 300px;
+            top: 225.4px;
+            background-color: #0D5EAF;
+        }
+        .band[value="6"]{
+            width: 900px;
+            position: absolute;
+            
+            top: 281.9px;
+            background-color: #FFFFFF;
+        }                                          
+        .band[value="7"]{
+            width: 900px;
+            position: absolute;
+            top: 338.4px;
+            background-color: #0D5EAF;
+        }
+        .band[value="8"]{
+            width: 900px;
+            position: absolute;
+            
+            top: 394.9px;
+            background-color: #FFFFFF;
+        }
+        .band[value="9"]{
+            height: 48px;
+            width: 900px;
+            position: absolute;
+            top: 451.4px;
+            background-color: #0D5EAF;
+        }                     
+        
+    </style>
+</head>
+<body>
+    <p>Greece's Flag</p>
+    <div id="flag">
+
+    <div id="blue-rectangle">    
+    <div id="horizontal-white-line"></div>
+    <div id="vertical-white-line"></div>
+    </div>
+
+    <div class="band" value="1"></div>
+    <div class="band" value="2"></div>
+    <div class="band" value="3"></div>
+    <div class="band" value="4"></div>
+    <div class="band" value="5"></div>
+    <div class="band" value="6"></div>
+    <div class="band" value="7"></div>    
+    <div class="band" value="8"></div>
+    <div class="band" value="9"></div>    
+    </div>
+    
+</body>
+</html>
