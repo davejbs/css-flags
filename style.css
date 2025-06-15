@@ -25,6 +25,8 @@ html{
     border: solid black;
     border-radius: 8%;
     box-shadow: 25%;
+    display: inline block;
+    text-align: center;
 }
 
 #context{
